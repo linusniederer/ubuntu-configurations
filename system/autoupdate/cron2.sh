@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Autoupdate - autoremove
+#
 # @author: https://github.com/linusniederer
 # @link: https://github.com/linusniederer/ubuntu-configurations/edit/main/system/autoupdate/cron1.sh
 # @raw: https://raw.githubusercontent.com/linusniederer/ubuntu-configurations/main/system/autoupdate/cron1.sh
 #
 
 # ********************* INIT
-
 
 # ********************* FUNCTIONS
 CLEANUPOLDKERNEL() {
