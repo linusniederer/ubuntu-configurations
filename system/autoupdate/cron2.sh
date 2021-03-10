@@ -3,7 +3,7 @@
 # Autoupdate - autoremove
 #
 # @author: https://github.com/linusniederer
-# @link: https://github.com/linusniederer/ubuntu-configurations/edit/main/system/autoupdate/cron2.sh
+# @link: https://github.com/linusniederer/ubuntu-configurations/blob/main/system/autoupdate/cron2.sh
 # @raw: https://raw.githubusercontent.com/linusniederer/ubuntu-configurations/main/system/autoupdate/cron2.sh
 #
 
