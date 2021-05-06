@@ -21,6 +21,10 @@ startService() {
     echo ${status}
 }
 
+timestamp() {
+    echo $(date +"%T")
+}
+
 # ********************* MAIN
 logger "service-checker.sh ... Starting with param ${1}"
 
@@ -30,9 +34,12 @@ if [ "${status}" = "active" ]; then
     logger  "service-checker.sh ... Service ${1} is running"
 else
     logger "service-checker.sh ... Service ${1} is inactive"
+    
+    cd ./serviceLog
+    echo "$(timestamp) > Service ${1} was inactive!" > error.log
+    
     status=$(startService $1)
     logger "service-checker.sh ... Service ${1} has now state ${status}"
 fi
 
 logger "service-checker.sh ... End"
-
