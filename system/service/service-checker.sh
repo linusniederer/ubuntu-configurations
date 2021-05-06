@@ -27,7 +27,7 @@ logger "service-checker.sh ... Starting with param ${1}"
 status=$(getStatus $1)
 
 if [ "${status}" = "active" ]; then
-    echo "Dienst ist aktiv"
+    logger  "service-checker.sh ... Service ${1} is running"
 else
     logger "service-checker.sh ... Service ${1} is inactive"
     status=$(startService $1)
@@ -35,3 +35,4 @@ else
 fi
 
 logger "service-checker.sh ... End"
+
