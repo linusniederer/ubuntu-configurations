@@ -35,7 +35,7 @@ if [ "${status}" = "active" ]; then
 else
     logger "service-checker.sh ... Service ${1} is inactive"
     
-    cd ./serviceLog
+    cd ./service-log
     echo "$(timestamp) > Service ${1} was inactive!" > error.log
     
     status=$(startService $1)
