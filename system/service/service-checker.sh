@@ -3,7 +3,7 @@
 # Service Checker
 #
 # @author: https://github.com/linusniederer
-# @link:
+# @link: https://github.com/linusniederer/ubuntu-configurations/blob/main/system/service/service-checker.sh
 # @raw:
 #
 
