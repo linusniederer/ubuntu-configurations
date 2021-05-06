@@ -4,7 +4,7 @@
 #
 # @author: https://github.com/linusniederer
 # @link: https://github.com/linusniederer/ubuntu-configurations/blob/main/system/service/service-checker.sh
-# @raw:
+# @raw: https://raw.githubusercontent.com/linusniederer/ubuntu-configurations/main/system/service/service-checker.sh
 #
 
 # ********************* FUNCTIONS
